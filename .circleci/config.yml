@@ -79,7 +79,7 @@ jobs:
     working_directory: ~/project/backend
     steps:
       - checkout:
-          path: ~/project
+          path: ~/project/backend
       - run: python --version
       - run:
           name: Install requirements into pipenv
