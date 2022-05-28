@@ -95,9 +95,9 @@ jobs:
             - "/usr/local/lib/python3.8/site-packages"
       - attach_workspace:
           at: ~/project/tmp
-      - run:
-          name: Check formatting with black
-          command: pipenv run black --exclude .venv . --check
+      # - run:
+      #     name: Check formatting with black
+      #     command: pipenv run black --exclude .venv . --check
       - dlreporter
       - run:
           name: Run pytest with coverage
