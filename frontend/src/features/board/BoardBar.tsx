@@ -147,7 +147,7 @@ const BoardBar = () => {
             startIcon={<FontAwesomeIcon icon={faPlus} />}
             data-testid="add-col"
           >
-            Add Column
+            Add Swimlane
           </Button>
         </Right>
       </Items>

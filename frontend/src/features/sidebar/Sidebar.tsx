@@ -107,9 +107,9 @@ const DrawerContent = () => {
         <NavLink to="/" exact css={linkStyles}>
           Home
         </NavLink>
-        <NavLink to="/boards/" exact css={linkStyles}>
+        {/* <NavLink to="/boards/" exact css={linkStyles}>
           Boards
-        </NavLink>
+        </NavLink> */}
         <NavLink to="/profile/" exact css={linkStyles}>
           Profile
         </NavLink>
