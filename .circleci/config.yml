@@ -67,7 +67,7 @@ jobs:
 
   backend:
     docker:
-      - image: circleci/python:3.8
+      - image: circleci/python:2.7
         environment:
           PIPENV_VENV_IN_PROJECT: true
           DATABASE_URL: postgresql://root@localhost/circle_test?sslmode=disable
@@ -91,7 +91,7 @@ jobs:
           paths:
             - ".venv"
             - "/usr/local/bin"
-            - "/usr/local/lib/python3.8/site-packages"
+            - "/usr/local/lib/python2.7/site-packages"
       - attach_workspace:
           at: ~/project/tmp
       - run:
