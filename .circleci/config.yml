@@ -85,8 +85,8 @@ jobs:
       - run:
           name: Install requirements into pipenv
           command: |
-            pip install pyscopg2
             sudo pip install pipenv
+            sudo pip install pyscopg2
             pipenv install -r requirements/local.txt
       - save_cache:
           key: deps9-{{ .Branch }}-{{ checksum "Pipfile.lock" }}
