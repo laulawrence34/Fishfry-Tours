@@ -2,6 +2,7 @@ version: 2.1
 
 orbs:
   cypress: cypress-io/cypress@1
+  python: circleci/python@2.0.3
 
 executors:
   with-chrome:
@@ -67,7 +68,7 @@ jobs:
 
   backend:
     docker:
-      - image: circleci/python@3.8
+      - image: circleci/python:3.8
         environment:
           PIPENV_VENV_IN_PROJECT: true
           DATABASE_URL: postgresql://root@localhost/circle_test?sslmode=disable
