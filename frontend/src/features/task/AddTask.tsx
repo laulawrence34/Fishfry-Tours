@@ -44,7 +44,7 @@ const AddTask = ({ columnId, index }: Props) => {
       onClick={handleOnClick}
       fullWidth
     >
-      Add card
+      Add a boat
     </Button>
   );
 };

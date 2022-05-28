@@ -143,7 +143,7 @@ const CreateTaskDialog = () => {
       fullScreen={xsDown}
     >
       <Content onKeyDown={handleKeyDown}>
-        <DialogTitle>New issue</DialogTitle>
+        <DialogTitle>New Boat</DialogTitle>
 
         <TextField
           autoFocus
