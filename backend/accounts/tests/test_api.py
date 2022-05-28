@@ -130,7 +130,7 @@ def test_guest_registration(api_client, settings):
     settings.ALLOW_GUEST_ACCESS = True
 
     assert User.objects.count() == 0
-    call_command("loaddata", "backend/fixtures/avatars.yaml")
+    call_command("loaddata", "avatars.yaml")
     response = api_client.post(reverse("guest-registration"))
 
     # Guest user is created
