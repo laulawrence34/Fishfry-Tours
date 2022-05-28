@@ -86,7 +86,7 @@ jobs:
           name: Install requirements into pipenv
           command: |
             sudo pip install pipenv
-            sudo pip install pyscopg2
+            pipenv install psycopg2-binary
             pipenv install -r requirements/local.txt
       - save_cache:
           key: deps9-{{ .Branch }}-{{ checksum "Pipfile.lock" }}
