@@ -76,7 +76,7 @@ jobs:
           POSTGRES_USER: knboard
           POSTGRES_DB: knboard
           POSTGRES_HOST_AUTH_METHOD: trust
-    working_directory: ~/project
+    working_directory: ~/project/backend
     steps:
       - checkout:
           path: ~/project
