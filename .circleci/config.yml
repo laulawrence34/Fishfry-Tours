@@ -85,6 +85,7 @@ jobs:
           name: Install requirements into pipenv
           command: |
             sudo pip install pipenv
+            sudo apt install libpq-dev python3-dev
             pipenv install -r requirements/local.txt
       - save_cache:
           key: deps9-{{ .Branch }}-{{ checksum "Pipfile.lock" }}
