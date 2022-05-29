@@ -3,12 +3,6 @@
 Special thanks to Ragnar Rebase for creating the original open source code base.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-
-[![CircleCI](https://circleci.com/gh/rrebase/knboard.svg?style=svg)](https://circleci.com/gh/rrebase/knboard)
-[![Maintainability](https://api.codeclimate.com/v1/badges/1dc1d840640dad52e38f/maintainability)](https://codeclimate.com/github/rrebase/knboard/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/1dc1d840640dad52e38f/test_coverage)](https://codeclimate.com/github/rrebase/knboard/test_coverage)
-
 ## Quality 💪
 
 - Auto formatted with Prettier and Black
