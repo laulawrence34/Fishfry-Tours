@@ -1,7 +1,6 @@
 <h1 align="center">Fishfry Toursrds</h1>
 
 Special thanks to Ragnar Rebase for creating the original open source code base.
-![image](https://user-images.githubusercontent.com/23059874/82831611-8f672600-9ec1-11ea-9d39-137936997925.png)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
