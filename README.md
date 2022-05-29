@@ -1,12 +1,9 @@
-<h1 align="center">Simple Kanban boards</h1>
+<h1 align="center">Fishfry Toursrds</h1>
 
-👉 [View Live](http://knboard.com/)
-
-![image](https://user-images.githubusercontent.com/23059874/82831611-8f672600-9ec1-11ea-9d39-137936997925.png)
+Special thanks to Ragnar Rebase for creating the original open source code base.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![Code of Conduct](https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square)](https://github.com/rrebase/knboard/blob/master/CODE_OF_CONDUCT.md)
 
 [![CircleCI](https://circleci.com/gh/rrebase/knboard.svg?style=svg)](https://circleci.com/gh/rrebase/knboard)
 [![Maintainability](https://api.codeclimate.com/v1/badges/1dc1d840640dad52e38f/maintainability)](https://codeclimate.com/github/rrebase/knboard/maintainability)
