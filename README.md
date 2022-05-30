@@ -1,4 +1,4 @@
-<h1 align="center">Fishfry Toursrds</h1>
+<h1 align="center">Fishfry Tours</h1>
 
 Special thanks to Ragnar Rebase for creating the original open source code base.
 
