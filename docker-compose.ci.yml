@@ -3,7 +3,7 @@ version: "3"
 services:
   django:
     build:
-      context: .
+      context: ./
       dockerfile: django.Dockerfile
     image: knboard_production_django
     restart: unless-stopped
