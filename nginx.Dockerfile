@@ -6,6 +6,7 @@ WORKDIR /app
 
 # Copy npm package requirements to the workdir
 COPY ./frontend/package.json /app/
+COPY ./frontend/yarn.lock /app/
 
 # Install dependencies into workdir node_modules
 RUN yarn install
